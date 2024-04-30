@@ -1,4 +1,4 @@
-package patrones.estructurales.visitor;
+package patrones.comportamiento.visitor;
 
 /**
  * 4. Clases Concreta del Elemento - Implementan la interfaz Animal.

@@ -1,4 +1,4 @@
-package patrones.estructurales.visitor;
+package patrones.comportamiento.visitor;
 
 /**
  * 2. Clases Concreta de Visitor - Implementaciones específicas de la interfaz AnimalVisitor.

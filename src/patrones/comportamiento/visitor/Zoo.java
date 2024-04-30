@@ -1,4 +1,4 @@
-package patrones.estructurales.visitor;
+package patrones.comportamiento.visitor;
 
 /**
  * El patrón de diseño Visitor permite realizar operaciones sobre los elementos 
