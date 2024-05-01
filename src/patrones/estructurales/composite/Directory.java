@@ -16,15 +16,27 @@ public class Directory extends FileSystemElement {
         this.name = name;
     }
 
-    public void addElement(FileSystemElement element) {
-        elements.add(element);
-    }
-
     @Override
     public void print(String structure) {
         System.out.println(structure + name);
         for (FileSystemElement element : elements) {
             element.print(structure + "   ");
         }
+    }
+    
+    public void addElement(FileSystemElement element) {
+        elements.add(element);
+    }
+
+    public void removeElement(FileSystemElement element) {
+        elements.remove(element);
+    }
+
+    public FileSystemElement getChild(int index) {
+        return elements.get(index);
+    }
+    
+    public int size() {
+        return elements.size();
     }
 }
