@@ -21,12 +21,7 @@ package patrones.estructurales.facade;
 public class Main {
     
     public static void main(String[] args) {
-        Amplifier amp = new Amplifier();
-        DvdPlayer dvd = new DvdPlayer();
-        Projector projector = new Projector();
-        Lights lights = new Lights();
-
-        HomeTheaterFacade homeTheater = new HomeTheaterFacade(amp, dvd, projector, lights);
+        HomeTheaterFacade homeTheater = new HomeTheaterFacade();
         homeTheater.watchMovie("Raiders of the Lost Ark");
         homeTheater.endMovie();
     }

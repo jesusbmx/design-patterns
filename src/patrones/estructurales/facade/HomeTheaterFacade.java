@@ -18,6 +18,10 @@ class HomeTheaterFacade {
         this.lights = lights;
     }
 
+    public HomeTheaterFacade() {
+        this(new Amplifier(), new DvdPlayer(), new Projector(), new Lights());
+    }
+
     void watchMovie(String movie) {
         System.out.println("Get ready to watch a movie...");
         lights.dim(10);
