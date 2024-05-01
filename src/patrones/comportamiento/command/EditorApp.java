@@ -24,7 +24,7 @@ public class EditorApp {
         manager.undo();
         System.out.println(editor.getText());  // Output: Hello, World!
 
-        manager.undo();
+        manager.executeCommand(new DeleteCommand(editor));
         System.out.println(editor.getText());  // Output: (empty)
     }
 }
