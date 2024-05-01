@@ -3,7 +3,9 @@ package patrones.comportamiento.visitor;
 /**
  * El patrón de diseño Visitor permite realizar operaciones sobre los elementos 
  * de una estructura de objetos sin cambiar las clases de los elementos sobre 
- * los que opera. Esto es útil para separar algoritmos de las estructuras de 
+ * los que opera. 
+ * 
+ * Esto es útil para separar algoritmos de las estructuras de 
  * datos que utilizan.
  * 
  * En este ejemplo, imagina que tenemos diferentes tipos de animales en un 

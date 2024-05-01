@@ -3,18 +3,20 @@ package patrones.estructurales.composite;
 /**
  * El patrón de diseño Composite es útil para tratar grupos de objetos de manera 
  * similar a como se trataría a un objeto individual. 
+ * 
  * Este patrón organiza objetos en una estructura de árbol y permite a los clientes 
  * tratar objetos individuales y composiciones de objetos de manera uniforme.
  * 
  * Es es un ejemplo de Composite en Java que gestiona un sistema de archivos con 
- * directorios y archivos. En este ejemplo, tanto los archivos como los 
- * directorios se tratan como FileSystemElement.
+ * directorios y archivos. 
+ * 
+ * En este ejemplo, tanto los archivos como los directorios se tratan como FileSystemElement.
  * 
  * Componentes del patrón Composite:
- * - Component (Componente): Interfaz o clase abstracta para los objetos en la composición.
- * - Leaf (Hoja): Representa objetos hoja en la composición que no tienen hijos.
- * - Composite: Define el comportamiento de los componentes que tienen hijos y almacena componentes hijos.
- * - Client (Cliente): Manipula objetos en la composición a través de la interfaz del Component.
+ * 1. Component (Componente): Interfaz o clase abstracta para los objetos en la composición.
+ * 2. Leaf (Hoja): Representa objetos hoja en la composición que no tienen hijos.
+ * 3. Composite: Define el comportamiento de los componentes que tienen hijos y almacena componentes hijos.
+ * 4. Client (Cliente): Manipula objetos en la composición a través de la interfaz del Component.
  * 
  * @author Jesus
  */

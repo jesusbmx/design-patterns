@@ -4,9 +4,12 @@ package patrones.estructurales.adapter;
  * El patrón de diseño Adapter permite que interfaces incompatibles trabajen juntas. 
  * 
  * Funciona transformando la interfaz de una clase en otra interfaz que los clientes esperan. 
- * Es especialmente útil en situaciones donde necesitas integrar clases existentes con nuevas interfaces.
+ * 
+ * Es especialmente útil en situaciones donde necesitas integrar clases existentes 
+ * con nuevas interfaces.
  * 
  * En este ejemplo en Java utilizando el patrón Adapter. 
+ * 
  * Supongamos que tenemos un sistema de reproducción de música, pero queremos 
  * que pueda trabajar tanto con archivos MP3 como con archivos en formato VLC.
  * 

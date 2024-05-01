@@ -7,6 +7,13 @@ package patrones.comportamiento.command;
  * Facilita la implementación de operaciones deshacer (undo) y rehacer (redo), 
  * y también puede ser usado para implementar el registro de transacciones y callbacks.
  * 
+ * Componentes del patrón Command:
+ * 1. Command: La interfaz que declara un método execute y opcionalmente un método undo para ejecutar y deshacer el comando.
+ * 2. ConcreteCommand: Implementaciones concretas de la interfaz Command que encapsulan la acción y sus parámetros.
+ * 3. Invoker: Mantiene y llama a los comandos.
+ * 4. Receiver: La clase que sabe cómo llevar a cabo las operaciones asociadas con llevar a cabo una solicitud. En este caso, sería el editor de texto.
+ * 5. Client: Crea comandos concretos y los asigna a su invocador.
+ * 
  * @author Jesus
  */
 public class EditorApp {
