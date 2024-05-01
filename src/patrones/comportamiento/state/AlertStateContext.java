@@ -1,7 +1,8 @@
 package patrones.comportamiento.state;
 
 /**
- *
+ * 3. Context Class - Mantiene una instancia de AlertState que define el estado actual.
+ * 
  * @author jesus
  */
 public class AlertStateContext {

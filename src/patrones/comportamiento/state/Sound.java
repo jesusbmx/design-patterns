@@ -1,8 +1,9 @@
 package patrones.comportamiento.state;
 
 /**
- *
- * @author sistemas
+ * 2. Concrete States - Implementaciones específicas de cada estado.
+ * 
+ * @author jesus
  */
 public class Sound implements AlertState {
     
